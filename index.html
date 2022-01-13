@@ -4,6 +4,7 @@
 	<title>Danielle Odigie</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/index.js"></script>
 
 </head>
 <body>
@@ -12,23 +13,26 @@
 		<img src="images/cat.gif" alt="cat banging on table" id="bottom">
 	</div>
 	
-	<div class="container">
+	<div class="container" id="header">
 		<header id="main-header">
 			<h1>Danielle Odigie</h1>	
 		</header>
 
 		<nav id="nav">		
 				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><button onclick="aboutScroll()" class="navbutton">About</button></li>
+					<li><button onclick="projectScroll()" class="navbutton">Projects</button></li>
+					<li><button onclick="contactScroll()" class="navbutton">Contact</button></li>
 				</ul>
 		</nav>
 	</div>
-	<div class="container">
+
+<br> 
+<br>
+	<div class="imgnbio">
 		<section id="bio">
 			<div id="me">
-				<img src="images/me2.jpg" alt="a picture of Danielle Odigie" height="200px">
+				<img src="images/me2.jpg" alt="a picture of Danielle Odigie" height="200px" id="me2">
 			</div>
 			<div id="main">
 				<p>Hi! I'm Danielle, and I am an aspiring software developer based in NYC. I am currently a freshman studysing at Columbia University, and I am excited to learn as much as I can about the tech field!</p>
@@ -36,9 +40,11 @@
 		</section>
 	</div>
 
+<br>
+<br>
 
 	<div class="container">
-		<section id="box">
+		<section class="box" >
 			<div class="square">
 				<p>Here's what I'm listening to!</p>
 				<br>
@@ -70,8 +76,48 @@
 	</div>
 	<br>
 	<br>
+
+
+
+	<div class="container" id="projects">
+		<h2>Projects</h2>
+		<section class="box">
+			<div class="square">
+				<p>  </p>
+			</div>
+			<div class="square">
+				<p>No projects yet! Check back later!</p>
+			</div>
+			<div class="square">
+				<p>  </p>
+			</div>
+		</section>
+	</div>
+
 	<br>
 	<br>
+
+	<div class="container" id="contact">
+		<h2>Contact Me</h2>
+		<section class="box">
+			<div class="square">
+				<p>You can email me!</p>
+				<a href="mailto:odigiedanielle@gmail.com" target="_blank">My Email</a>
+			</div>
+			<div class="square">
+				<p>Connect with me on LinkedIn!</p>
+				<a href="https://linkedin.com/in/danielleodigie101" target="_blank">My LinkedIn</a>
+			</div>
+			<div class="square">
+				<p>Follow me on Insta!</p>
+				<a href="https://www.instagram.com/imdanielleo/" target="_blank">My Insta</a>
+			</div>
+		</section>
+	</div>
+
+	<br>
+	<br> 
+
 	<footer id="footer">
 		<div class="container">
 			<p>"<em>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.</em>" - Malcolm X</p>
