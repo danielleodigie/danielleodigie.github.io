@@ -5,7 +5,7 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
-
+    position: relative;
 }
 
 .navbutton{
@@ -109,10 +109,20 @@ body{
 	justify-content: center;
 	}
 
+
+
 #me{
 	width: 40%;
 	box-sizing: border-box;
-	
+	position: relative;
+}
+
+#catflor{
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	width: 5%;
+	height: auto;
 }
 
 #me2{
@@ -233,6 +243,14 @@ body{
 		flex-direction: column;
 		justify-content: space-between;
 		justify-content: center;
+	}
+
+	#catflor{
+		position: absolute;
+		top: 6%;
+		left: 35%;
+		width: 5%;
+		height: auto;
 	}
 
 	#me{
