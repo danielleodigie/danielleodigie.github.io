@@ -29,7 +29,7 @@ body{
 	margin: auto;
 	margin-top: 20px;
 	overflow: visible;
-	
+	padding: 30px;
 }
 
 #imgholder {
@@ -136,6 +136,12 @@ body{
 	box-sizing: border-box;
 	}
 
+#projects{
+	background-color: #865a2d;
+	color: linen;
+	border-radius: 20px;
+}
+
 .box{
 	display: flex;
 	justify-content: space-between;
@@ -165,9 +171,32 @@ body{
 	transition: 800ms;
 }
 
+#melahealth{
+	display: inline-block;
+	width: 100%;
+}
+#melahealthtext{
+	display: inline-block;
+	float: right;
+	width: 50%;
+	padding-top: 50px;
+	text-align: center;
+}
 
+#melahealthimg{
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
 
+#melahealthtext a{
+	color: linen;
+	transition: 500ms;
+}
 
+#melahealthtext a:hover {
+	color: #B4AAA0;
+}
 
 
 
